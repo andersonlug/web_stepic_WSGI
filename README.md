@@ -13,14 +13,17 @@ homework. WEB technology on stepic.org
 	* http://devacademy.ru/posts/razbiraemsya-v-http-proksi-nginx-balansirovke-nagruzki-buferizatsii-i-keshirovanii/
 
 - установка
+
 	apt-get update
 	apt-get install nginx
 
 - Конфиг находится:
+
 	/etc/nginx/nginx.conf
 	/var/log/nginx/error.log
 
 - Команда на запуск
+
 	sudo /etc/init.d/nginx start
 	sudo nginx -s reload # reload config
 
