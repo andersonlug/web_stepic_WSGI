@@ -55,3 +55,4 @@ homework. WEB technology on stepic.org
 - запуск (terminal or with setting file)
 	* gunicorn hello:app --bind 0.0.0.0:8080   -->  $(MODULE_NAME):$(VARIABLE_NAME)
 	* gunicorn -c gunicorn_cfg.py web_application:application
+	* sudo /etc/init.d/gunicorn restart
