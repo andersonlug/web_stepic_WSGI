@@ -28,7 +28,8 @@ homework. WEB technology on stepic.org
 	sudo nginx -s reload # reload config
 
 - проверка ответа
-	* curl -I http://localhost:80/uploads/kitten.png
+	* curl -I http://localhost:80/uploads/kitten.png     (HEADER)
+	* curl -vv 127.0.0.1:8000      (full response)
 	* wget localhost:80 -O -
 
 - Когда nginx запущен:
