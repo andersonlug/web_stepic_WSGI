@@ -2,7 +2,7 @@
 
 homework. WEB technology on stepic.org
 
-	git clone https://github.com/your_account/stepic_web_project.git /home/box/web
+	git clone https://github.com/achicha/web_stepic /home/box/web
 	bash /home/box/web/init.sh
 
 
@@ -56,3 +56,17 @@ homework. WEB technology on stepic.org
 	* gunicorn hello:app --bind 0.0.0.0:8080   -->  $(MODULE_NAME):$(VARIABLE_NAME)
 	* gunicorn -c gunicorn_cfg.py web_application:application
 	* sudo /etc/init.d/gunicorn restart
+
+# Django
+
+- установка:
+
+	pip install django
+
+- создание нового проекта в текущей директории
+
+	django-admin.py startproject my_project
+
+- создание нового приложения в проекте
+
+	./manage.py startapp new_app
