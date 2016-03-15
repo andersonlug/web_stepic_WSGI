@@ -55,10 +55,17 @@ homework. WEB technology on stepic.org
 
 - запуск (terminal or with setting file)
 	* gunicorn hello:app --bind 0.0.0.0:8080   -->  $(MODULE_NAME):$(VARIABLE_NAME)
+	* sudo gunicorn --bind 0.0.0.0:8000 --access-logfile acc.log --error-logfile err.log ask.wsgi:application
 	* gunicorn -c gunicorn_cfg.py web_application:application
 	* sudo /etc/init.d/gunicorn restart
 
 # Django
+
+----------------------
+чистая установка в venv(py3.4.3) или с удалением предыдущих версий
+pip install setuptools gunicorn==19.4.5 django==1.8
+
+----------------------
 
 - установка:
 
