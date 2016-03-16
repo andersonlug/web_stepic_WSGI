@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo pip install --upgrade django==1.9.4
+sudo pip install --upgrade gunicorn==19.4.5
 # sudo mv /home/box/web/etc/nginx.conf  /etc/nginx/nginx.conf
 sudo rm /etc/nginx/sites-enabled/default
 sudo ln -sf /home/box/web/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
