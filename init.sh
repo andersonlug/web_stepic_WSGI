@@ -10,4 +10,5 @@ sudo /etc/init.d/nginx restart
 sudo ln -s /home/box/web/etc/gunicorn.conf /etc/gunicorn.d/test
 sudo ln -s /home/box/web/etc/gunicorn_ask.conf /etc/gunicorn.d/ask
 sudo /etc/init.d/gunicorn restart
-
+cd /home/box/web/
+gunicorn hello:app --bind 0.0.0.0:8080 &
