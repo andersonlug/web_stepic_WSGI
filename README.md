@@ -4,7 +4,7 @@
 Не закрываем терминал, нажимаем кнопку зеленую отправить
 Радуемся зачету.
 
-	git clone https://github.com/web_stepic /home/box/web
+	git clone https://github.com/zank9/web_stepic_WSGI.git /home/box/web
 	bash /home/box/web/init.sh
 
 #Пояснение
